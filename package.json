@@ -1,0 +1,28 @@
+{
+  "name": "socketchat",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivasvan1/socketioChat.git"
+  },
+  "author": "Vivasvan Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivasvan1/socketioChat/issues"
+  },
+  "homepage": "https://github.com/vivasvan1/socketioChat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
