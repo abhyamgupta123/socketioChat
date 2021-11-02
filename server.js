@@ -6,7 +6,7 @@ const formatMessage = require("./utils/messages");
 const { userJoin, getCurrentUser, userLeave, getRoomUsers, getAllUsers } = require("./utils/users");
 const { log } = require("console");
 const app = express();
-const server = http.createServer(app);
+const server = http.Server(app);
 const io = socketio(server);
 
 const botName = "Socket Bot"
