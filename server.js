@@ -1,5 +1,5 @@
 const path = require("path");
-const http = require("https");
+const http = require("http");
 const express = require("express");
 const socketio = require("socket.io");
 const formatMessage = require("./utils/messages");
